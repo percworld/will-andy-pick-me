@@ -3,6 +3,8 @@ var ball = document.querySelector('.ball');
 var questionInput = document.querySelector('.question');
 var roll = document.querySelector('.roll');
 var clear = document.querySelector('.clear');
+var userQuestion = document.querySelector('.userQuestion');
+var userAnswer = document.querySelector('.userAnswer');
 var question = "";
 var answer = "";
 
@@ -14,7 +16,7 @@ function getRandomIndex(array) {
 };
 
 function getData() {
-  question = questionInput;
+  question = questionInput.value;
   answer = answersArray[getRandomIndex(answersArray)];
   userQuestion.innerText = question;
   userAnswer.innerText = answer;
