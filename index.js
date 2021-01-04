@@ -23,21 +23,21 @@ function getData() {
   console.log(answersArray);
 };
 
-displayData() {
+function displayData() {
   hide(questionInput);
   hide(roll);
   hide(ball);
   show(userQuestion);
   show(userAnswer);
-}
+};
 
-clearField() {
+function clearField() {
   show(questionInput);
   show(roll);
   show(ball);
   hide(userQuestion);
   hide(userAnswer);
-}
+};
 
 function hide(e) {
   e.classList.add('hidden');
