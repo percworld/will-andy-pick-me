@@ -10,10 +10,18 @@ clear.addEventListener('click', clearField);
 
 function getRandomIndex(array) {
   return Math.floor(Math.random() * array.length);
-}
+};
 
 function getData() {
   answer = answersArray[getRandomIndex(answersArray)];
   console.log(answer);
   console.log(answersArray);
-}
+};
+
+function hide(e) {
+  e.classList.add('hidden');
+};
+
+function show(e) {
+  e.classList.remove('hidden');
+};
