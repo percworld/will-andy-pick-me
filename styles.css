@@ -1,3 +1,89 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+header {
+  font-family: 'Life Savers', serif;
+  color: #2B4E80;
+  text-align: center;
+  font-size: 44px;
+  margin-top: 5vh;
+}
+
+.main-view {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 46vh;
+  margin-top: 5vh
+}
+.box-1{
+  background-color: #E6ECF4;
+  width: 381px;
+  height: 315px;
+  display: block;
+}
+.controls {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 53vh;
+  margin: 8px;
+
+}
+.question, .roll {
+  height: 30px;
+  font-size: 20px;
+}
+
+input {
+  text-align: center;
+  color: #2B4E80
+}
+
+.roll {
+  color: #F7F9F9;
+  background-color: #607AA0
+}
+
+.roll > button:hover {
+  background-color: #1C3455
+}
+
+.ball {
+  height: 21vh;
+  position:relative;
+  width: 14vw;
+  margin-top: 1vw;
+  margin-left: 12vw
+}
+
+.controls {
+  border: none;
+}
+
+.clear {
+  margin-top: 6vh;
+  margin-left: 32vw;
+}
+
+.clear > button:hover {
+  background-color: #DE4841
+}
+
+.box-2 {
+  width: 350px;
+  height: 315 px;
+}
+
+.box-2 > .woody {
+  height: 314px;
+  width: auto;
+  margin-left: 87px
+}
+
+
+
+
 /* font-family: 'Open Sans', sans-serif; */
 /* font-family: 'Life Savers', serif; */
 
