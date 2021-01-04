@@ -16,3 +16,5 @@ I had to look up some things in regards to the css styling and got stuck with fi
 Hannah, Scott and Kayla
 
 ### Please paste you deployed GitHub pages link below
+
+https://percworld.github.io/will-andy-pick-me/
